@@ -175,3 +175,8 @@ The current suite contains 33 targeted tests covering conflict merging/resolutio
 - Evaluate both models on the same extraction and contradiction examples.
 - Improve recovery messaging before adding product features.
 - For higher traffic, replace JSON files with transactional shared storage, add durable request deduplication and bounded concurrency, and use measured extraction accuracy, latency, and cost to choose models and prompting strategies.
+
+## References
+
+- [Engineering process](PROCESS.md): annotated AI interactions, design decisions, verification, reflection, and time spent.
+- [Session transcript](files/2026-11-19-201357-local-command-caveatthe-command-below-was-run-d.txt): the exported working record of the Claude session, including design discussion, implementation, and initial verification. Some tool outputs are collapsed, and subagent interactions appear as completion summaries; later testing and review are documented in `PROCESS.md`.
